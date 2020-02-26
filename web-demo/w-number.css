@@ -1,0 +1,45 @@
+.w1 {
+	width: 20%;
+}
+
+.w2 {
+	width: 15%;
+}
+
+.w3 {
+	width: 20%;
+}
+
+.w4 {
+	width: 15%;
+}
+
+.w5 {
+	width: 23%;
+}
+
+body {
+	font-family: 'Open Sans', Arial, Helvetica, Tahoma, sans-serif;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form {
+	display: block;
+}
+
+img {
+	border: none;
+}
+
+strong {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ 

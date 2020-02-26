@@ -1,0 +1,72 @@
+div.test-cho-vui {
+	border: 1px solid gray;
+	padding: 8px;
+	width: 60%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.test-cho-vui h1 {
+	text-transform: uppercase;
+	color: #4CAF50;
+	text-align: center;
+}
+
+.test-cho-vui h1:hover {
+	cursor: pointer;
+}
+
+.test-cho-vui p {
+	text-indent: 50px;
+	text-align: justify;
+	letter-spacing: 3px;
+}
+
+.test-cho-vui a {
+	text-decoration: none;
+	color: #008CBA;
+
+	transition: color 0.8s;
+}
+
+.test-cho-vui a:hover {
+	text-decoration: underline;
+	opacity: 0.5;
+	color: red;
+}
+
+a.hint {
+	float: right;
+	
+}
+
+a.hint:hover {
+	cursor: pointer;
+
+}
+
+p.info-hint-2 {
+	display: none;
+}
+
+div.info-hint-1:hover p.info-hint-2 {
+	display: block;
+}
+
+.drop-down-content {
+	display: none;
+  	position: absolute;
+  	background-color: #f9f9f9;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	padding: 12px 16px;
+  	z-index: 1;
+}
+
+.test-cho-vui:hover .drop-down-content {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
